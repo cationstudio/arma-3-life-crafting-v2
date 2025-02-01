@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `crafting` (
     `cop_plans` text NOT NULL,
     `med_plans` text NOT NULL,
     `east_plans` text NOT NULL,
-    `civ_points` int(7) NOT NULL DEFAULT '0'
+    `civ_points` int(7) NOT NULL DEFAULT '0',
     `cop_points` int(7) NOT NULL DEFAULT '0',
     `med_points` int(7) NOT NULL DEFAULT '0',
     `east_points` int(7) NOT NULL DEFAULT '0',
